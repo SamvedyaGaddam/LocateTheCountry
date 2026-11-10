@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f5ef">
+  <title>GeoQuest — Find your place in the world</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <section id="view-home" class="screen home-screen">
+      <div class="home-globe" aria-hidden="true">
+        <svg viewBox="0 0 900 900" role="presentation">
+          <defs><clipPath id="globeClip"><circle cx="450" cy="450" r="390"/></clipPath></defs>
+          <circle cx="450" cy="450" r="390" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <g clip-path="url(#globeClip)" fill="none" stroke="currentColor" opacity=".48">
+            <ellipse cx="450" cy="450" rx="175" ry="390"/><ellipse cx="450" cy="450" rx="315" ry="390"/>
+            <ellipse cx="450" cy="450" rx="390" ry="145"/><ellipse cx="450" cy="450" rx="390" ry="275"/>
+            <path d="M60 450h780M450 60v780"/>
+          </g>
+          <g clip-path="url(#globeClip)" fill="currentColor" opacity=".17">
+            <path d="M153 239l54-44 78 8 29 42-21 39-47 11-18 42-43-9-27-40-37-10zM267 365l47 12 35 62-17 68-31 79-35 88-31-37 8-79-29-73 17-70zM421 190l67-35 73 26 36 44-18 44-61 4-34 33-55-21-40-49zM492 341l84-17 65 37 27 72-32 83-48 84-49-13-35-75-41-75zM653 591l69-26 59 35-14 54-71 21-49-36z"/>
+          </g>
+        </svg>
+      </div>
+      <div class="home-content">
+        <header class="brand-row"><a class="brand" href="/">GEO<span>QUEST</span></a><span class="brand-caption">A WORLD OF QUESTIONS</span></header>
+        <div class="hero-copy">
+          <p class="eyebrow">YOUR WORLD. YOUR CHALLENGE.</p>
+          <h1>Find your place<br>in the <em>world.</em></h1>
+          <p class="hero-description">A geography game of instinct, knowledge and discovery. Ten mystery countries. One world to explore.</p>
+        </div>
+        <div class="mode-picker">
+          <div class="mode-heading"><span class="eyebrow">01 / CHOOSE YOUR MODE</span><span class="mode-count">10 ROUNDS</span></div>
+          <div class="mode-grid">
+            <button class="mode-card selected" data-mode="explorer" aria-pressed="true"><span class="mode-index">01</span><strong>Explorer</strong><small>Countries from everywhere</small></button>
+            <button class="mode-card" data-mode="regional" aria-pressed="false"><span class="mode-index">02</span><strong>Regional</strong><small>Focus on one part of the world</small></button>
+            <button class="mode-card" data-mode="challenge" aria-pressed="false"><span class="mode-index">03</span><strong>Challenge</strong><small>Geographically tricky countries</small></button>
+            <button class="mode-card" data-mode="practice" aria-pressed="false"><span class="mode-index">04</span><strong>Practice</strong><small>Learn at your own pace</small></button>
+          </div>
+          <div id="region-picker" class="region-picker hidden">
+            <label for="region-select">Choose a region</label>
+            <select id="region-select"><option value="">Loading regions…</option></select>
+          </div>
+          <button id="start-game" class="start-button">START GAME <span>↗</span></button>
+        </div>
+        <footer class="home-footer"><span>GEOQUEST</span><span>10 ROUNDS · 2 HINTS PER ROUND</span><span>NO ACCOUNT REQUIRED</span></footer>
+      </div>
+    </section>
+
+    <section id="view-play" class="screen play-screen hidden">
+      <div id="map" aria-label="Interactive world map"></div>
+      <div class="map-vignette" aria-hidden="true"></div>
+      <header class="game-topbar">
+        <a class="brand" href="#" id="exit-game">GEO<span>QUEST</span></a>
+        <div class="round-indicator"><span id="round-title">ROUND 01 / 10</span><div class="round-track"><i id="progress-fill"></i></div></div>
+        <div class="score-display"><small>YOUR SCORE</small><strong id="game-score">0</strong></div>
+      </header>
+      <div class="game-prompt"><span class="eyebrow">FIND THIS COUNTRY</span><h2 id="target-country-name">Loading country…</h2><p id="map-instruction">Click anywhere on the map to place your guess.</p></div>
+      <aside class="game-controls">
+        <div class="control-top"><span class="eyebrow">FIELD NOTES</span><span id="hints-left">2 HINTS LEFT</span></div>
+        <button class="hint-button" id="hint-one"><span>01</span><span><b>Regional clue</b><small>Reveal its region</small></span><i>＋</i></button>
+        <div id="hint-one-result" class="hint-result hidden"></div>
+        <button class="hint-button" id="hint-two"><span>02</span><span><b>Geographic clue</b><small>Reveal a geographic fact</small></span><i>＋</i></button>
+        <div id="hint-two-result" class="hint-result hidden"></div>
+        <button class="exit-button" id="quit-game">EXIT GAME</button>
+      </aside>
+      <section id="round-result" class="round-result hidden"></section>
+    </section>
+
+    <section id="view-analytics" class="screen analytics-screen hidden">
+      <header class="brand-row"><a class="brand" href="#" id="analytics-home">GEO<span>QUEST</span></a><span class="brand-caption">YOUR JOURNEY SO FAR</span></header>
+      <div class="analytics-content">
+        <p class="eyebrow">PLAYER STATISTICS</p><h1>Your geography,<br><em>over time.</em></h1>
+        <p class="analytics-note" id="player-label">Stats saved on this browser. No account required.</p>
+        <div class="stats-grid">
+          <article><small>GAMES COMPLETED</small><strong id="analytics-games">0</strong></article>
+          <article><small>BEST SCORE</small><strong id="analytics-best">0</strong></article>
+          <article><small>AVERAGE SCORE</small><strong id="analytics-average">0</strong></article>
+        </div>
+        <div class="history-panel"><div class="eyebrow">RECENT GAMES</div><div id="history-list">No completed games yet.</div></div>
+        <button class="start-button" id="play-again">PLAY AGAIN <span>↗</span></button>
+      </div>
+    </section>
+  </main>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

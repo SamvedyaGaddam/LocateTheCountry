@@ -1,0 +1,986 @@
+[
+  {
+    "name": "AD",
+    "path": "countries/AD.geojson"
+  },
+  {
+    "name": "AE",
+    "path": "countries/AE.geojson"
+  },
+  {
+    "name": "AF",
+    "path": "countries/AF.geojson"
+  },
+  {
+    "name": "AG",
+    "path": "countries/AG.geojson"
+  },
+  {
+    "name": "AI",
+    "path": "countries/AI.geojson"
+  },
+  {
+    "name": "akrotiri-sovereign-base-area",
+    "path": "countries/akrotiri-sovereign-base-area.geojson"
+  },
+  {
+    "name": "AL",
+    "path": "countries/AL.geojson"
+  },
+  {
+    "name": "AM",
+    "path": "countries/AM.geojson"
+  },
+  {
+    "name": "AO",
+    "path": "countries/AO.geojson"
+  },
+  {
+    "name": "AQ",
+    "path": "countries/AQ.geojson"
+  },
+  {
+    "name": "AR",
+    "path": "countries/AR.geojson"
+  },
+  {
+    "name": "AS",
+    "path": "countries/AS.geojson"
+  },
+  {
+    "name": "ashmore-and-cartier-islands",
+    "path": "countries/ashmore-and-cartier-islands.geojson"
+  },
+  {
+    "name": "AT",
+    "path": "countries/AT.geojson"
+  },
+  {
+    "name": "AU",
+    "path": "countries/AU.geojson"
+  },
+  {
+    "name": "AW",
+    "path": "countries/AW.geojson"
+  },
+  {
+    "name": "AX",
+    "path": "countries/AX.geojson"
+  },
+  {
+    "name": "AZ",
+    "path": "countries/AZ.geojson"
+  },
+  {
+    "name": "BA",
+    "path": "countries/BA.geojson"
+  },
+  {
+    "name": "bajo-nuevo-bank-(petrel-is.)",
+    "path": "countries/bajo-nuevo-bank-(petrel-is.).geojson"
+  },
+  {
+    "name": "baykonur-cosmodrome",
+    "path": "countries/baykonur-cosmodrome.geojson"
+  },
+  {
+    "name": "BB",
+    "path": "countries/BB.geojson"
+  },
+  {
+    "name": "BD",
+    "path": "countries/BD.geojson"
+  },
+  {
+    "name": "BE",
+    "path": "countries/BE.geojson"
+  },
+  {
+    "name": "BF",
+    "path": "countries/BF.geojson"
+  },
+  {
+    "name": "BG",
+    "path": "countries/BG.geojson"
+  },
+  {
+    "name": "BH",
+    "path": "countries/BH.geojson"
+  },
+  {
+    "name": "BI",
+    "path": "countries/BI.geojson"
+  },
+  {
+    "name": "BJ",
+    "path": "countries/BJ.geojson"
+  },
+  {
+    "name": "BL",
+    "path": "countries/BL.geojson"
+  },
+  {
+    "name": "BM",
+    "path": "countries/BM.geojson"
+  },
+  {
+    "name": "BN",
+    "path": "countries/BN.geojson"
+  },
+  {
+    "name": "BO",
+    "path": "countries/BO.geojson"
+  },
+  {
+    "name": "BR",
+    "path": "countries/BR.geojson"
+  },
+  {
+    "name": "BS",
+    "path": "countries/BS.geojson"
+  },
+  {
+    "name": "BT",
+    "path": "countries/BT.geojson"
+  },
+  {
+    "name": "BW",
+    "path": "countries/BW.geojson"
+  },
+  {
+    "name": "BY",
+    "path": "countries/BY.geojson"
+  },
+  {
+    "name": "BZ",
+    "path": "countries/BZ.geojson"
+  },
+  {
+    "name": "CA",
+    "path": "countries/CA.geojson"
+  },
+  {
+    "name": "CD",
+    "path": "countries/CD.geojson"
+  },
+  {
+    "name": "CF",
+    "path": "countries/CF.geojson"
+  },
+  {
+    "name": "CG",
+    "path": "countries/CG.geojson"
+  },
+  {
+    "name": "CH",
+    "path": "countries/CH.geojson"
+  },
+  {
+    "name": "CI",
+    "path": "countries/CI.geojson"
+  },
+  {
+    "name": "CK",
+    "path": "countries/CK.geojson"
+  },
+  {
+    "name": "CL",
+    "path": "countries/CL.geojson"
+  },
+  {
+    "name": "CM",
+    "path": "countries/CM.geojson"
+  },
+  {
+    "name": "CN",
+    "path": "countries/CN.geojson"
+  },
+  {
+    "name": "CO",
+    "path": "countries/CO.geojson"
+  },
+  {
+    "name": "coral-sea-islands",
+    "path": "countries/coral-sea-islands.geojson"
+  },
+  {
+    "name": "CR",
+    "path": "countries/CR.geojson"
+  },
+  {
+    "name": "CU",
+    "path": "countries/CU.geojson"
+  },
+  {
+    "name": "CV",
+    "path": "countries/CV.geojson"
+  },
+  {
+    "name": "CW",
+    "path": "countries/CW.geojson"
+  },
+  {
+    "name": "CY",
+    "path": "countries/CY.geojson"
+  },
+  {
+    "name": "cyprus-no-mans-area",
+    "path": "countries/cyprus-no-mans-area.geojson"
+  },
+  {
+    "name": "CZ",
+    "path": "countries/CZ.geojson"
+  },
+  {
+    "name": "DE",
+    "path": "countries/DE.geojson"
+  },
+  {
+    "name": "dhekelia-sovereign-base-area",
+    "path": "countries/dhekelia-sovereign-base-area.geojson"
+  },
+  {
+    "name": "DJ",
+    "path": "countries/DJ.geojson"
+  },
+  {
+    "name": "DK",
+    "path": "countries/DK.geojson"
+  },
+  {
+    "name": "DM",
+    "path": "countries/DM.geojson"
+  },
+  {
+    "name": "DO",
+    "path": "countries/DO.geojson"
+  },
+  {
+    "name": "DZ",
+    "path": "countries/DZ.geojson"
+  },
+  {
+    "name": "EC",
+    "path": "countries/EC.geojson"
+  },
+  {
+    "name": "EE",
+    "path": "countries/EE.geojson"
+  },
+  {
+    "name": "EG",
+    "path": "countries/EG.geojson"
+  },
+  {
+    "name": "EH",
+    "path": "countries/EH.geojson"
+  },
+  {
+    "name": "ER",
+    "path": "countries/ER.geojson"
+  },
+  {
+    "name": "ES",
+    "path": "countries/ES.geojson"
+  },
+  {
+    "name": "ET",
+    "path": "countries/ET.geojson"
+  },
+  {
+    "name": "FI",
+    "path": "countries/FI.geojson"
+  },
+  {
+    "name": "FJ",
+    "path": "countries/FJ.geojson"
+  },
+  {
+    "name": "FK",
+    "path": "countries/FK.geojson"
+  },
+  {
+    "name": "FM",
+    "path": "countries/FM.geojson"
+  },
+  {
+    "name": "FO",
+    "path": "countries/FO.geojson"
+  },
+  {
+    "name": "france",
+    "path": "countries/france.geojson"
+  },
+  {
+    "name": "GA",
+    "path": "countries/GA.geojson"
+  },
+  {
+    "name": "GB",
+    "path": "countries/GB.geojson"
+  },
+  {
+    "name": "GD",
+    "path": "countries/GD.geojson"
+  },
+  {
+    "name": "GE",
+    "path": "countries/GE.geojson"
+  },
+  {
+    "name": "GG",
+    "path": "countries/GG.geojson"
+  },
+  {
+    "name": "GH",
+    "path": "countries/GH.geojson"
+  },
+  {
+    "name": "GI",
+    "path": "countries/GI.geojson"
+  },
+  {
+    "name": "GL",
+    "path": "countries/GL.geojson"
+  },
+  {
+    "name": "GM",
+    "path": "countries/GM.geojson"
+  },
+  {
+    "name": "GN",
+    "path": "countries/GN.geojson"
+  },
+  {
+    "name": "GQ",
+    "path": "countries/GQ.geojson"
+  },
+  {
+    "name": "GR",
+    "path": "countries/GR.geojson"
+  },
+  {
+    "name": "GT",
+    "path": "countries/GT.geojson"
+  },
+  {
+    "name": "GU",
+    "path": "countries/GU.geojson"
+  },
+  {
+    "name": "GW",
+    "path": "countries/GW.geojson"
+  },
+  {
+    "name": "GY",
+    "path": "countries/GY.geojson"
+  },
+  {
+    "name": "HK",
+    "path": "countries/HK.geojson"
+  },
+  {
+    "name": "HN",
+    "path": "countries/HN.geojson"
+  },
+  {
+    "name": "HR",
+    "path": "countries/HR.geojson"
+  },
+  {
+    "name": "HT",
+    "path": "countries/HT.geojson"
+  },
+  {
+    "name": "HU",
+    "path": "countries/HU.geojson"
+  },
+  {
+    "name": "ID",
+    "path": "countries/ID.geojson"
+  },
+  {
+    "name": "IE",
+    "path": "countries/IE.geojson"
+  },
+  {
+    "name": "IL",
+    "path": "countries/IL.geojson"
+  },
+  {
+    "name": "IM",
+    "path": "countries/IM.geojson"
+  },
+  {
+    "name": "IN",
+    "path": "countries/IN.geojson"
+  },
+  {
+    "name": "indian-ocean-territories",
+    "path": "countries/indian-ocean-territories.geojson"
+  },
+  {
+    "name": "IQ",
+    "path": "countries/IQ.geojson"
+  },
+  {
+    "name": "IR",
+    "path": "countries/IR.geojson"
+  },
+  {
+    "name": "IS",
+    "path": "countries/IS.geojson"
+  },
+  {
+    "name": "IT",
+    "path": "countries/IT.geojson"
+  },
+  {
+    "name": "JE",
+    "path": "countries/JE.geojson"
+  },
+  {
+    "name": "JM",
+    "path": "countries/JM.geojson"
+  },
+  {
+    "name": "JO",
+    "path": "countries/JO.geojson"
+  },
+  {
+    "name": "JP",
+    "path": "countries/JP.geojson"
+  },
+  {
+    "name": "KE",
+    "path": "countries/KE.geojson"
+  },
+  {
+    "name": "KG",
+    "path": "countries/KG.geojson"
+  },
+  {
+    "name": "KH",
+    "path": "countries/KH.geojson"
+  },
+  {
+    "name": "KI",
+    "path": "countries/KI.geojson"
+  },
+  {
+    "name": "KM",
+    "path": "countries/KM.geojson"
+  },
+  {
+    "name": "KN",
+    "path": "countries/KN.geojson"
+  },
+  {
+    "name": "kosovo",
+    "path": "countries/kosovo.geojson"
+  },
+  {
+    "name": "KP",
+    "path": "countries/KP.geojson"
+  },
+  {
+    "name": "KR",
+    "path": "countries/KR.geojson"
+  },
+  {
+    "name": "KW",
+    "path": "countries/KW.geojson"
+  },
+  {
+    "name": "KY",
+    "path": "countries/KY.geojson"
+  },
+  {
+    "name": "KZ",
+    "path": "countries/KZ.geojson"
+  },
+  {
+    "name": "LA",
+    "path": "countries/LA.geojson"
+  },
+  {
+    "name": "LB",
+    "path": "countries/LB.geojson"
+  },
+  {
+    "name": "LC",
+    "path": "countries/LC.geojson"
+  },
+  {
+    "name": "LI",
+    "path": "countries/LI.geojson"
+  },
+  {
+    "name": "LK",
+    "path": "countries/LK.geojson"
+  },
+  {
+    "name": "LR",
+    "path": "countries/LR.geojson"
+  },
+  {
+    "name": "LS",
+    "path": "countries/LS.geojson"
+  },
+  {
+    "name": "LT",
+    "path": "countries/LT.geojson"
+  },
+  {
+    "name": "LU",
+    "path": "countries/LU.geojson"
+  },
+  {
+    "name": "LV",
+    "path": "countries/LV.geojson"
+  },
+  {
+    "name": "LY",
+    "path": "countries/LY.geojson"
+  },
+  {
+    "name": "MA",
+    "path": "countries/MA.geojson"
+  },
+  {
+    "name": "MC",
+    "path": "countries/MC.geojson"
+  },
+  {
+    "name": "MD",
+    "path": "countries/MD.geojson"
+  },
+  {
+    "name": "ME",
+    "path": "countries/ME.geojson"
+  },
+  {
+    "name": "MF",
+    "path": "countries/MF.geojson"
+  },
+  {
+    "name": "MG",
+    "path": "countries/MG.geojson"
+  },
+  {
+    "name": "MH",
+    "path": "countries/MH.geojson"
+  },
+  {
+    "name": "MK",
+    "path": "countries/MK.geojson"
+  },
+  {
+    "name": "ML",
+    "path": "countries/ML.geojson"
+  },
+  {
+    "name": "MM",
+    "path": "countries/MM.geojson"
+  },
+  {
+    "name": "MN",
+    "path": "countries/MN.geojson"
+  },
+  {
+    "name": "MO",
+    "path": "countries/MO.geojson"
+  },
+  {
+    "name": "MP",
+    "path": "countries/MP.geojson"
+  },
+  {
+    "name": "MR",
+    "path": "countries/MR.geojson"
+  },
+  {
+    "name": "MS",
+    "path": "countries/MS.geojson"
+  },
+  {
+    "name": "MT",
+    "path": "countries/MT.geojson"
+  },
+  {
+    "name": "MW",
+    "path": "countries/MW.geojson"
+  },
+  {
+    "name": "MX",
+    "path": "countries/MX.geojson"
+  },
+  {
+    "name": "MY",
+    "path": "countries/MY.geojson"
+  },
+  {
+    "name": "MZ",
+    "path": "countries/MZ.geojson"
+  },
+  {
+    "name": "NA",
+    "path": "countries/NA.geojson"
+  },
+  {
+    "name": "NC",
+    "path": "countries/NC.geojson"
+  },
+  {
+    "name": "NE",
+    "path": "countries/NE.geojson"
+  },
+  {
+    "name": "NF",
+    "path": "countries/NF.geojson"
+  },
+  {
+    "name": "NG",
+    "path": "countries/NG.geojson"
+  },
+  {
+    "name": "NI",
+    "path": "countries/NI.geojson"
+  },
+  {
+    "name": "NL",
+    "path": "countries/NL.geojson"
+  },
+  {
+    "name": "northern-cyprus",
+    "path": "countries/northern-cyprus.geojson"
+  },
+  {
+    "name": "norway",
+    "path": "countries/norway.geojson"
+  },
+  {
+    "name": "NP",
+    "path": "countries/NP.geojson"
+  },
+  {
+    "name": "NR",
+    "path": "countries/NR.geojson"
+  },
+  {
+    "name": "NU",
+    "path": "countries/NU.geojson"
+  },
+  {
+    "name": "NZ",
+    "path": "countries/NZ.geojson"
+  },
+  {
+    "name": "OM",
+    "path": "countries/OM.geojson"
+  },
+  {
+    "name": "PA",
+    "path": "countries/PA.geojson"
+  },
+  {
+    "name": "PE",
+    "path": "countries/PE.geojson"
+  },
+  {
+    "name": "PF",
+    "path": "countries/PF.geojson"
+  },
+  {
+    "name": "PG",
+    "path": "countries/PG.geojson"
+  },
+  {
+    "name": "PH",
+    "path": "countries/PH.geojson"
+  },
+  {
+    "name": "PK",
+    "path": "countries/PK.geojson"
+  },
+  {
+    "name": "PL",
+    "path": "countries/PL.geojson"
+  },
+  {
+    "name": "PM",
+    "path": "countries/PM.geojson"
+  },
+  {
+    "name": "PN",
+    "path": "countries/PN.geojson"
+  },
+  {
+    "name": "PR",
+    "path": "countries/PR.geojson"
+  },
+  {
+    "name": "PS",
+    "path": "countries/PS.geojson"
+  },
+  {
+    "name": "PT",
+    "path": "countries/PT.geojson"
+  },
+  {
+    "name": "PW",
+    "path": "countries/PW.geojson"
+  },
+  {
+    "name": "PY",
+    "path": "countries/PY.geojson"
+  },
+  {
+    "name": "QA",
+    "path": "countries/QA.geojson"
+  },
+  {
+    "name": "RO",
+    "path": "countries/RO.geojson"
+  },
+  {
+    "name": "RS",
+    "path": "countries/RS.geojson"
+  },
+  {
+    "name": "RU",
+    "path": "countries/RU.geojson"
+  },
+  {
+    "name": "RW",
+    "path": "countries/RW.geojson"
+  },
+  {
+    "name": "SA",
+    "path": "countries/SA.geojson"
+  },
+  {
+    "name": "SB",
+    "path": "countries/SB.geojson"
+  },
+  {
+    "name": "scarborough-reef",
+    "path": "countries/scarborough-reef.geojson"
+  },
+  {
+    "name": "SD",
+    "path": "countries/SD.geojson"
+  },
+  {
+    "name": "SE",
+    "path": "countries/SE.geojson"
+  },
+  {
+    "name": "serranilla-bank",
+    "path": "countries/serranilla-bank.geojson"
+  },
+  {
+    "name": "SG",
+    "path": "countries/SG.geojson"
+  },
+  {
+    "name": "SI",
+    "path": "countries/SI.geojson"
+  },
+  {
+    "name": "siachen-glacier",
+    "path": "countries/siachen-glacier.geojson"
+  },
+  {
+    "name": "SK",
+    "path": "countries/SK.geojson"
+  },
+  {
+    "name": "SL",
+    "path": "countries/SL.geojson"
+  },
+  {
+    "name": "SM",
+    "path": "countries/SM.geojson"
+  },
+  {
+    "name": "SN",
+    "path": "countries/SN.geojson"
+  },
+  {
+    "name": "SO",
+    "path": "countries/SO.geojson"
+  },
+  {
+    "name": "somaliland",
+    "path": "countries/somaliland.geojson"
+  },
+  {
+    "name": "spratly-islands",
+    "path": "countries/spratly-islands.geojson"
+  },
+  {
+    "name": "SR",
+    "path": "countries/SR.geojson"
+  },
+  {
+    "name": "SS",
+    "path": "countries/SS.geojson"
+  },
+  {
+    "name": "ST",
+    "path": "countries/ST.geojson"
+  },
+  {
+    "name": "SV",
+    "path": "countries/SV.geojson"
+  },
+  {
+    "name": "SX",
+    "path": "countries/SX.geojson"
+  },
+  {
+    "name": "SY",
+    "path": "countries/SY.geojson"
+  },
+  {
+    "name": "SZ",
+    "path": "countries/SZ.geojson"
+  },
+  {
+    "name": "TC",
+    "path": "countries/TC.geojson"
+  },
+  {
+    "name": "TD",
+    "path": "countries/TD.geojson"
+  },
+  {
+    "name": "TG",
+    "path": "countries/TG.geojson"
+  },
+  {
+    "name": "TH",
+    "path": "countries/TH.geojson"
+  },
+  {
+    "name": "TJ",
+    "path": "countries/TJ.geojson"
+  },
+  {
+    "name": "TL",
+    "path": "countries/TL.geojson"
+  },
+  {
+    "name": "TM",
+    "path": "countries/TM.geojson"
+  },
+  {
+    "name": "TN",
+    "path": "countries/TN.geojson"
+  },
+  {
+    "name": "TO",
+    "path": "countries/TO.geojson"
+  },
+  {
+    "name": "TR",
+    "path": "countries/TR.geojson"
+  },
+  {
+    "name": "TT",
+    "path": "countries/TT.geojson"
+  },
+  {
+    "name": "TV",
+    "path": "countries/TV.geojson"
+  },
+  {
+    "name": "TW",
+    "path": "countries/TW.geojson"
+  },
+  {
+    "name": "TZ",
+    "path": "countries/TZ.geojson"
+  },
+  {
+    "name": "UA",
+    "path": "countries/UA.geojson"
+  },
+  {
+    "name": "UG",
+    "path": "countries/UG.geojson"
+  },
+  {
+    "name": "UM",
+    "path": "countries/UM.geojson"
+  },
+  {
+    "name": "us-naval-base-guantanamo-bay",
+    "path": "countries/us-naval-base-guantanamo-bay.geojson"
+  },
+  {
+    "name": "US",
+    "path": "countries/US.geojson"
+  },
+  {
+    "name": "UY",
+    "path": "countries/UY.geojson"
+  },
+  {
+    "name": "UZ",
+    "path": "countries/UZ.geojson"
+  },
+  {
+    "name": "VA",
+    "path": "countries/VA.geojson"
+  },
+  {
+    "name": "VC",
+    "path": "countries/VC.geojson"
+  },
+  {
+    "name": "VE",
+    "path": "countries/VE.geojson"
+  },
+  {
+    "name": "VG",
+    "path": "countries/VG.geojson"
+  },
+  {
+    "name": "VI",
+    "path": "countries/VI.geojson"
+  },
+  {
+    "name": "VN",
+    "path": "countries/VN.geojson"
+  },
+  {
+    "name": "VU",
+    "path": "countries/VU.geojson"
+  },
+  {
+    "name": "WF",
+    "path": "countries/WF.geojson"
+  },
+  {
+    "name": "WS",
+    "path": "countries/WS.geojson"
+  },
+  {
+    "name": "YE",
+    "path": "countries/YE.geojson"
+  },
+  {
+    "name": "ZA",
+    "path": "countries/ZA.geojson"
+  },
+  {
+    "name": "ZM",
+    "path": "countries/ZM.geojson"
+  },
+  {
+    "name": "ZW",
+    "path": "countries/ZW.geojson"
+  }
+]

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: geoquest-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: geoquest
+      POSTGRES_PASSWORD: geoquest_dev_password
+      POSTGRES_DB: geoquest
+    ports:
+      - "5432:5432"
+    volumes:
+      - geoquest_pgdata:/var/lib/postgresql/data
+volumes:
+  geoquest_pgdata:
